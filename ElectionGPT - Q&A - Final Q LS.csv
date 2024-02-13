@@ -1,0 +1,166 @@
+q_id,topic,query,ground_truth
+1,REELECTION OF MPS,How many MPs got reelected in 2019?,1022
+2,REELECTION OF MPS,How many MPs got reelected in 2014?,1186
+3,REELECTION OF MPS,How many MPs got reelected in the last five Assembly Elections?,5155
+4,REELECTION OF MPS,How many MPs got reelected in the last ten Assembly Elections?,
+5,REELECTION OF MPS,How many MPs of SP got reelected in 2014?,45
+6,REELECTION OF MPS,How many MPs of SP got reelected in 2019?,26
+7,REELECTION OF MPS,How many MPs of SP got reelected in the last five elections?,193
+8,REELECTION OF MPS,How many MPs of BSP got reelected in 2014?,49
+9,REELECTION OF MPS,How many MPs of BSP got reelected in 2019?,35
+10,REELECTION OF MPS,How many MPs of BSP got reelected in the last five elections?,213
+11,REELECTION OF MPS,How many MPs of BJP got reelected in 2014?,164
+12,REELECTION OF MPS,How many MPs of BJP got reelected in 2019?,214
+13,REELECTION OF MPS,How many MPs of BJP got reelected in the last five elections?,934
+14,REELECTION OF MPS,How many MPs of Congress got reelected in 2014?,211
+15,REELECTION OF MPS,How many MPs of Congress got reelected in 2019?,135
+16,REELECTION OF MPS,How many MPs of Congress got reelected in the last five elections?,890
+17,REELECTION OF MPS,How many independent MPs got reelected in 2014?,291
+18,REELECTION OF MPS,How many independent MPs got reelected in 2019?,222
+19,REELECTION OF MPS,How many independent MPs got reelected in the last five elections?,1113
+20,REELECTION OF MPS,How many MPs of TMC got reelected in 2014?,22
+21,REELECTION OF MPS,How many MPs of TMC  got reelected in 2019?,29
+22,REELECTION OF MPS,How many MPs of TMC got reelected in the last five elections?,84
+23,REELECTION OF MPS,How many MPs of CPI got reelected in 2014?,13
+24,REELECTION OF MPS,How many MPs of CPI got reelected in 2019?,5
+25,REELECTION OF MPS,How many MPs of CPI got reelected in the last five elections?,61
+26,MAXIMUM MARGIN,How many MP won with more than one lakh votes in 2019 election?,537
+27,MAXIMUM MARGIN,How many MP won with more than one lakh votes in 2014 election?,538
+28,MAXIMUM MARGIN,How many MP won with more than Fifty thousand votes in 2019 election?,539
+29,MAXIMUM MARGIN,How many MP won with more than Fifty thousand votes in 2014 election?,540
+30,MAXIMUM MARGIN,How many MP won with more than Twenty Five thousand votes in 2019 election?,542
+31,MAXIMUM MARGIN,How many MP won with more than Twenty Five thousand votes in 2014 election?,542
+32,MAXIMUM MARGIN,Who registered the highest victory margin in the 2019 election?,C. R. Patil
+33,MAXIMUM MARGIN,Who registered the highest victory margin in the 2014 election?,NARENDRA MODI
+34,MAXIMUM MARGIN,Who registered the highest victory margin in the last five elections?,C. R. Patil
+35,MAXIMUM MARGIN,How many MP of BJP have victory margin over ten thousand votes in 2019 election?,303
+36,MAXIMUM MARGIN,How many MP of TMC have victory margin over ten thousand votes in 2019 election?,22
+37,MAXIMUM MARGIN,How many MP of Congress have victory margin over ten thousand votes in 2019 election?,52
+38,MAXIMUM MARGIN,How many MP of CPI have victory margin over ten thousand votes in 2019 election?,2
+39,MAXIMUM MARGIN,How many MP of BSP have victory margin over ten thousand votes in 2019 election?,10
+40,MAXIMUM MARGIN,How many MP of SP have victory margin over ten thousand votes in 2019 election?,5
+41,MAXIMUM MARGIN,How many MP of BJP have victory margin over ten thousand votes in 2014 election?,273
+42,MAXIMUM MARGIN,How many MP of Congress have victory margin over ten thousand votes in 2014 election?,37
+43,MAXIMUM MARGIN,How many MP of BSP have victory margin over ten thousand votes in 2014 election?,0
+44,MAXIMUM MARGIN,How many MP of SP have victory margin over ten thousand votes in 2014 election?,5
+45,MINIMUM MARGIN,How many MP lost with less than hundred votes in 2019 election?,1
+46,MINIMUM MARGIN,How many MP lost with less than hundred votes in 2014 election?,0
+47,MINIMUM MARGIN,How many MP lost with less than five hundred votes in 2019 election?,582
+48,MINIMUM MARGIN,How many MP lost with less than five hundred votes in 2014 election?,301
+49,MINIMUM MARGIN,How many MP lost with less than one thousand votes in 2019 election?,1579
+50,MINIMUM MARGIN,How many MP lost with less than one thousand votes in 2014 election?,1117
+51,MINIMUM MARGIN,How many MP lost with less than five thousand votes in 2019 election?,5116
+52,MINIMUM MARGIN,How many MP lost with less than five thousand votes in 2014 election?,4621
+53,MINIMUM MARGIN,Who registered the lowest victory margin in the 2019 election?,Bholanath (B.P. Saroj)
+54,MINIMUM MARGIN,Who registered the lowest victory margin in the 2014 election?,THUPSTAN CHHEWANG
+55,MINIMUM MARGIN,Who registered the lowest victory margin in the last five elections?,THUPSTAN CHHEWANG
+56,MINIMUM MARGIN,How many MP of BJP have victory margin less than five thousand votes in 2019 election?,5
+57,MINIMUM MARGIN,How many MP of TMC have victory margin less than five thousand votes in 2019 election?,1
+58,MINIMUM MARGIN,How many MP of Congress have victory margin less than five thousand votes in 2019 election?,2
+59,MINIMUM MARGIN,How many MP of BSP have victory margin less than five thousand votes in 2019 election?,0
+60,MINIMUM MARGIN,How many MP of SP have victory margin less than five thousand votes in 2019 election?,0
+61,MINIMUM MARGIN,How many MP of BJP have victory margin less than five thousand votes in 2014 election?,3
+62,MINIMUM MARGIN,How many MP of Congress have victory margin less than five thousand votes in 2014 election?,4
+63,MINIMUM MARGIN,How many MP of BSP have victory margin less than five thousand votes in 2014election?,0
+64,MINIMUM MARGIN,How many MP of SP have victory margin less than five thousand votes in 2014 election?,0
+65,MAXIMUM CANDIDATES IN A CONSTITUENCY,Which constituency recorded the largest number of candidates in 2019?,NIZAMABAD
+66,MAXIMUM CANDIDATES IN A CONSTITUENCY,How many candidates were recorded in 2019 election?,8596
+67,MAXIMUM CANDIDATES IN A CONSTITUENCY,Which constituency recorded the largest number of candidates in 2014?,CHENNAI SOUTH
+68,MAXIMUM CANDIDATES IN A CONSTITUENCY,How many candidates were recorded in 2014 election?,8794
+69,MAXIMUM CANDIDATES IN A CONSTITUENCY,The margin of victory recorded in the constituency with largest candidates- 2019 ,167184
+70,MAXIMUM CANDIDATES IN A CONSTITUENCY,Correlation between Number of electors and number of candidates [Large number of electors means large number of candidates],
+71,MAXIMUM CANDIDATES IN A CONSTITUENCY,What has been the maximum number of candidates in a single constituency in election history? Which constituency?,
+72,MAXIMUM CANDIDATES IN A CONSTITUENCY,What is the Voter-turnut in constituencies with the largest number of candidates?,69.1
+73,MAXIMUM CANDIDATES IN A CONSTITUENCY,what is the number of candidates who lost their deposits in the constituency with max candidates in the 2019 election,13
+74,MINIMUM CANDIDATES IN THE CONSTITUENCY,Which constituency recorded the minimum number of candidates in 2019?,TURA
+75,MINIMUM CANDIDATES IN THE CONSTITUENCY,Which constituency recorded the minimum number of candidates in 2014,TURA
+76,MINIMUM CANDIDATES IN THE CONSTITUENCY,what is the victory margin recorded in the constituency with minimum candidates -2019? ,64030
+77,MINIMUM CANDIDATES IN THE CONSTITUENCY,Correlation between Number of electors and number of candidates [Minimum number of electors means large number of candidates],
+78,MINIMUM CANDIDATES IN THE CONSTITUENCY,What has been the minimum number of candidates in a single constituency in election history? Which constituency?,
+79,MINIMUM CANDIDATES IN THE CONSTITUENCY,what is voter-turnout in constituencies with the minimum number of candidates?,52.22
+80,MINIMUM CANDIDATES IN THE CONSTITUENCY,what is the number of candidates who lost their deposits in the constituency with min candidates in the 2019 election?,1
+81,NUMBER OF CANDIDATES FIELDED BY PROMINENT PARTIES IN ELECTIONS,How many candidates fielded by the BJP in 2019 election?,435
+82,NUMBER OF CANDIDATES FIELDED BY PROMINENT PARTIES IN ELECTIONS,How many candidates fielded by the SP in 2019 election?,49
+83,NUMBER OF CANDIDATES FIELDED BY PROMINENT PARTIES IN ELECTIONS,How many candidates fielded by the BSP in 2019 election?,383
+84,NUMBER OF CANDIDATES FIELDED BY PROMINENT PARTIES IN ELECTIONS,How many candidates fielded by the Congress in 2019 election?,421
+85,NUMBER OF CANDIDATES FIELDED BY PROMINENT PARTIES IN ELECTIONS,How many candidates fielded by the TMC in 2019 election?,62
+86,NUMBER OF CANDIDATES FIELDED BY PROMINENT PARTIES IN ELECTIONS,How many Independed candidate contested in 2019 election?,3460
+87,NUMBER OF CANDIDATES FIELDED BY PROMINENT PARTIES IN ELECTIONS,How many candidates fielded by the BJP in 2014 election?,428
+88,NUMBER OF CANDIDATES FIELDED BY PROMINENT PARTIES IN ELECTIONS,How many candidates fielded by the SP in 2014 election?,197
+89,NUMBER OF CANDIDATES FIELDED BY PROMINENT PARTIES IN ELECTIONS,How many candidates fielded by the BSP in 2014 election?,503
+90,NUMBER OF CANDIDATES FIELDED BY PROMINENT PARTIES IN ELECTIONS,How many candidates fielded by the Congress in 2014 election?,464
+91,NUMBER OF CANDIDATES FIELDED BY PROMINENT PARTIES IN ELECTIONS,How many candidates fielded by the TMC in 2014 election?,131
+92,NUMBER OF CANDIDATES FIELDED BY PROMINENT PARTIES IN ELECTIONS,How many Independed candidate contested in 2019 election?,3234
+93,WOMEN CANDIDATES PERFORMANCE,Which party have highest Women candidate in 2019 election?,IND and BJP
+94,WOMEN CANDIDATES PERFORMANCE,Which party with have highest Women winners in 2019 elections?,BJP
+95,WOMEN CANDIDATES PERFORMANCE,What is the total number of Women winners in the 2019 elections?,78
+96,WOMEN CANDIDATES PERFORMANCE,Which constituency with highest number of women candidates in 2019 elections?,CHANDIGARH
+97,WOMEN CANDIDATES PERFORMANCE,What is the highest victory margin women candidates in 2019 elections?,642137
+98,WOMEN CANDIDATES PERFORMANCE,Who is the richest candidates among women in 2019 elections?,
+99,WOMEN CANDIDATES PERFORMANCE,Who is the poorest candidates among Women in 2019 elections?,
+100,WOMEN CANDIDATES PERFORMANCE,How many women candidates participate in the 2014 elections?,670
+101,WOMEN CANDIDATES PERFORMANCE,How many women winners in the 2014 elections?,63
+102,WOMEN CANDIDATES PERFORMANCE,Which party have the highest women candidates in 2014 elections?,IND AND INC
+103,WOMEN CANDIDATES PERFORMANCE,Which party have highest women winners in 2014 elections?,BJP
+104,WOMEN CANDIDATES PERFORMANCE,Which constituency have the highest number of Women candidates in 2014 elections?,AMRAVATI
+105,WOMEN CANDIDATES PERFORMANCE,what is the victory margin women candidates in 2014 elections?,536384
+106,WOMEN CANDIDATES PERFORMANCE,Who is the richest candidates among Women in 2014 elections?,
+107,WOMEN CANDIDATES PERFORMANCE,Who is the poorest candidates among Women in 2014 elections?,
+108,WOMEN CANDIDATES PERFORMANCE,Who is the most successful Women candidate in history of UP election?,
+109,WOMEN CANDIDATES PERFORMANCE,Which UP election recorded the highest successful number of Women candidates?,
+110,MALE TO FEMALE CANDIDATE RATIO,What is the number of Male candidates in 2019 election?,7322
+111,MALE TO FEMALE CANDIDATE RATIO,What is the number of Male candidates in 2014 election?,7575
+112,MALE TO FEMALE CANDIDATE RATIO,Which constitutes have no female candidate in 2019 elections?,171
+113,MALE TO FEMALE CANDIDATE RATIO,Which constituencies had no female candidates in 2014 election?,174
+114,VOTER TURNOUT. URBAN/ RURAL,How many number of Urban constituencies in India?,
+115,VOTER TURNOUT. URBAN/ RURAL,How many number of Rural constituencies in India?,
+116,VOTER TURNOUT. URBAN/ RURAL,What is the Number of Rural electorate in 2019?,
+117,VOTER TURNOUT. URBAN/ RURAL,What is the Number of Urban electorate in 2019?,
+118,VOTER TURNOUT. URBAN/ RURAL,What is the Number of Rural electorate in 2014?,
+119,VOTER TURNOUT. URBAN/ RURAL,What is the Number of Urban electorate in 2014?,
+120,VOTER TURNOUT. URBAN/ RURAL,What is the Voter turnout from among Rural seats in 2019?,
+121,VOTER TURNOUT. URBAN/ RURAL,What is the Voter turnout from among Urban seats in 2019?,
+122,VOTER TURNOUT. URBAN/ RURAL,What is the Voter turnout from among Rural seats in 2014?,
+123,VOTER TURNOUT. URBAN/ RURAL,What is the Voter turnout from among Urban seats in 2014?,
+124,VOTER TURNOUT. URBAN/ RURAL,What is the Highest voter turnout amongst Urban seats?,
+125,VOTER TURNOUT. URBAN/ RURAL,What is the Highest voter turnout amongst Rural seats?,
+126,"LOK SABHA ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",How many Seats won by BJP in 2019 election?,302
+127,"LOK SABHA ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",How many Seats won by SP in 2019 election?,5
+128,"LOK SABHA ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",How many Seats won by BSP in 2019 election?,10
+129,"LOK SABHA ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",How many Seats won by TMC in 2019 election?,22
+130,"LOK SABHA ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",How many Seats won by IND in 2019 election?,4
+131,"LOK SABHA ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",How many Seats won by INC in 2019 election?,52
+132,"LOK SABHA ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",How many Seats won by BJP in 2014 election ?,282
+133,"LOK SABHA ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",How many Seats won by SP in 2014 election?,5
+134,"LOK SABHA ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",How many Seats won by BSP in 2014 election?,0
+135,"LOK SABHA ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",How many Seats won by TMC in 2014 election ?,34
+136,"LOK SABHA ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",How many Seats won by IND in 2014 election?,3
+137,"LOK SABHA ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",How many Seats won by INC in 2014 election?,44
+138,NUMBER OF VOTERS IN DIFFERENT ELECTIONS,What is the Number of voters in 2019 election?,614163406
+139,NUMBER OF VOTERS IN DIFFERENT ELECTIONS,What is the Number of voters in 2014 election?,553802946
+140,NUMBER OF VOTERS IN DIFFERENT ELECTIONS,What constituency had the highest number of voters in 2019?,INDORE
+141,NUMBER OF VOTERS IN DIFFERENT ELECTIONS,What constituency had the highest number of voters in 2014?,JAIPUR
+142,NUMBER OF VOTERS IN DIFFERENT ELECTIONS,What constituency had the highest number of voters in 2009?,NAGALAND
+143,SC CANDIDATES PERFORMANCE,What is the number of SC candidates in the 2019 elections?,1132
+144,SC CANDIDATES PERFORMANCE,Which party have the highest SC candidate in 2019 election?,IND AND BSP
+145,SC CANDIDATES PERFORMANCE,Which party have the highest SC winners in 2019 elections?,BJP
+146,SC CANDIDATES PERFORMANCE,What is the total number of SC winners in the 2019 elections?,86
+147,SC CANDIDATES PERFORMANCE,Which Constituency have the highest number of SC candidates in 2019 elections?,TENKASI
+148,SC CANDIDATES PERFORMANCE,What is the Highest victory margin among SC candidates in 2019 elections?,689668
+149,SC CANDIDATES PERFORMANCE,What is the number of male SC candidates in 2019 elections?,7322
+150,SC CANDIDATES PERFORMANCE,What is the number of female SC candidates in 2019 elections?,726
+151,SC CANDIDATES PERFORMANCE,Who is the Richest candidates among SC in 2019 elections?,
+152,SC CANDIDATES PERFORMANCE,Who is the Poorest candidates among SC in 2019 elections?,
+153,SC CANDIDATES PERFORMANCE,What is the number of SC candidates in the 2014 elections?,2098
+154,SC CANDIDATES PERFORMANCE,What is the total number of SC winners in the 2014 elections?,85
+155,SC CANDIDATES PERFORMANCE,Which Party have  the highest SC candidates in 2014 elections?,BSP AND IND 
+156,SC CANDIDATES PERFORMANCE,Which Party have the highest SC winners in 2014 elections,BJP
+157,SC CANDIDATES PERFORMANCE,Which constituency have the highest number of SC candidates in 2014 elections?,JALANDHAR
+158,SC CANDIDATES PERFORMANCE,What is the highest victory margin among SC candidates in 2014 elections?,570128
+159,SC CANDIDATES PERFORMANCE,What is the number of male SC candidates in 2014 elections?,7575
+160,SC CANDIDATES PERFORMANCE,What is the Number of female SC candidates in 2014 elections?,670
+161,SC CANDIDATES PERFORMANCE,What is the Number of male SC winners in 2014 elections?,480
+162,SC CANDIDATES PERFORMANCE,What is the Number of female SC winners in 2014 elections?,63
+163,SC CANDIDATES PERFORMANCE,Who is the Richest candidates among SC in 2014 elections?,
+164,SC CANDIDATES PERFORMANCE,Who is the poorest candidates among SC in 2014 elections?,
+165,SC CANDIDATES PERFORMANCE,Who is the most successful SC candidate in history of UP elections?,

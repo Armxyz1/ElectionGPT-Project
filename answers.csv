@@ -1,0 +1,44 @@
+How many MLA won with more than one lakh votes? ,SELECT COUNT(*) FROM eci_kr_2023 WHERE votes > 100000 AND position = 1
+How many MLA won with more than Fifty thousand votes? ,SELECT COUNT(*) FROM eci_kr_2023 WHERE votes > 50000 AND position = 1
+How many MLA won with more than Twenty Five thousand votes? ,SELECT COUNT(*) FROM eci_kr_2023 WHERE votes > 25000 AND position = 1 
+How many MLA won with more than Twenty Five thousand votes? ,SELECT COUNT(*) FROM eci_kr_2023 WHERE votes > 25000 AND position = 1 
+Who registered the highest victory margin in the election? ,"SELECT candidate_name, margin FROM eci_kr_2023 WHERE position = 1 ORDER BY margin DESC LIMIT 1;"
+How many MLA of BJP have victory margin over ten thousand votes?? ,"SELECT COUNT(candidate_name) AS num_mla FROM eci_kr_2023 WHERE party = ""Bharatiya Janata Party"" AND margin > 10000 AND position = 1"
+How many MLA of Congress have victory margin over ten thousand votes?,"SELECT COUNT(candidate_name) AS num_mla FROM eci_kr_2023 WHERE party = ""Indian National Congress"" AND margin > 10000 AND position = 1"
+Number of candidates fielded by the BJP?,"SELECT COUNT(candidate_name) AS num_candidates FROM eci_kr_2023 WHERE party = ""Bharatiya Janata Party"" "
+Number of candidates fielded by the JD(S)?,"SELECT COUNT(candidate_name) AS num_candidates FROM eci_kr_2023 WHERE party = ""Janata Dal (Secular)"""
+Number of candidates fielded by the Congress?,"SELECT COUNT(candidate_name) AS num_candidates FROM eci_kr_2023 WHERE party = ""Indian National Congress"" AND st_name = ""Karnataka"""
+How many MLA won with more than one lakh votes in 2023 election? ,SELECT COUNT(*) FROM eci_kr_2023 WHERE votes > 100000 AND position = 1
+How many MLA won with more than Fifty thousand votes in 2023 election? ,SELECT COUNT(*) FROM eci_kr_2023 WHERE votes > 50000 AND position = 1
+How many MLA won with more than Twenty Five thousand votes in 2023 election? ,SELECT COUNT(*) FROM eci_kr_2023 WHERE votes > 25000 AND position = 1 
+Who registered the highest victory margin in the 2023 election?,"SELECT candidate_name, margin FROM eci_kr_2023 WHERE position = 1 ORDER BY margin DESC LIMIT 1;"
+How many MLA of BJP have victory margin over ten thousand votes in 2023 election? ,"SELECT COUNT(*) FROM eci_kr_2023 WHERE party = ""Bharatiya Janata Party"" AND margin > 10000 AND position = 1"
+How many MLA of Congress have victory margin over ten thousand votes in 2023 election? ,"SELECT COUNT(candidate_name) FROM eci_kr_2023 WHERE party = ""Indian National Congress"" AND margin > 10000 AND position = 1"
+How many MLA of JD(s) have victory margin over ten thousand votes in 2023 election? ,"SELECT COUNT(*) FROM eci_kr_2023 WHERE party = ""Janata Dal (Secular)"" AND margin > 10000 AND position = 1"
+How many MLA lost with less than hundred votes in  2023 election? ,SELECT COUNT(*) FROM eci_kr_2023 WHERE votes < 100 AND position != 1 LIMIT 5;
+How many MLA lost with less than five hundred votes in  2023 election? ,SELECT COUNT(*) FROM eci_kr_2023 WHERE votes < 500 AND position != 1 LIMIT 5;
+How many MLA lost with less than one thousand votes in 2023 election? ,SELECT COUNT(candidate_name) AS num_lost FROM eci_kr_2023 WHERE votes < 1000 AND position != 1
+How many MLA lost with less than five thousand votes in 2023 election? ,SELECT COUNT(*) FROM eci_kr_2023 WHERE votes < 5000 AND position != 1 LIMIT 5;
+Who registered the lowest victory margin in the 2023 election? ,"SELECT candidate_name, party, margin FROM eci_kr_2023 WHERE position = 1 ORDER BY margin LIMIT 1;"
+How many MLA of BJP have victory margin less than five thousand votes in 2023 election? ,"SELECT COUNT(candidate_name) FROM eci_kr_2023 WHERE party = ""Bharatiya Janata Party"" AND margin < 5000 AND position = 1"
+How many MLA of Congress have victory margin less than five thousand votes in 2023 election?,"SELECT COUNT(candidate_name) FROM eci_kr_2023 WHERE party = ""Indian National Congress"" AND margin < 5000 AND position = 1"
+How many MLA of JD(s) have victory margin less than five thousand votes in 2023 election? ,"SELECT COUNT(candidate_name) AS num_mla FROM eci_kr_2023 WHERE party = ""Janata Dal (Secular)"" AND margin < 5000 AND position = 1"
+Which constituency recorded the largest number of candidates in 2023?,"SELECT ac_name_y, COUNT(candidate_name) AS num_candidates FROM eci_kr_2023 GROUP BY ac_name_y ORDER BY num_candidates DESC LIMIT 1"
+How many candidates were recorded in 2023 in the constituency?,"SELECT ac_name_y, COUNT(candidate_name) AS num_candidates FROM eci_kr_2023 GROUP BY ac_name_y ORDER BY num_candidates DESC LIMIT 5;"
+Number of candidates who lost their deposits in the constituency with max candidates in the 2023 election?,SELECT COUNT(candidate_name) AS num_candidates FROM eci_kr_2023 WHERE position != 1GROUP BY ac_name_y ORDER BY num_candidates DESC LIMIT 1
+Which constituency recorded the minimum number of candidates in 2023?,"SELECT ac_name_y, COUNT(candidate_name) AS num_candidates FROM eci_kr_2023 GROUP BY ac_name_y ORDER BY num_candidates ASC LIMIT 1;"
+How many candidates were recorded in 2023 in the constituency?,"SELECT ac_name_y, COUNT(candidate_name) AS num_candidates FROM eci_kr_2023 GROUP BY ac_name_y ORDER BY num_candidates DESC LIMIT 5;"
+Number of candidates who lost their deposits in the constituency with min candidates in the 2023 election?,SELECT COUNT(candidate_name) AS num_lost_deposits FROM eci_kr_2023 WHERE position != 1 GROUP BY ac_name_y ORDER BY num_lost_deposits ASC LIMIT 1
+Which constituency had the maximum number of voters in 2023 assembly elections?,"SELECT ac_name_y, total_votes FROM eci_kr_2023 ORDER BY total_votes DESC LIMIT 1;"
+How many votes were polled in the constituency with the maximum number of voters in 2023 assembly elections?,SELECT total_votes FROM eci_kr_2023 WHERE total_votes = (SELECT MAX(total_votes) FROM eci_kr_2023) LIMIT 1;
+What was the voter turnout in the constituency with the maximum number of voters in 2023 assembly elections?,"SELECT total_votes, votes FROM eci_kr_2023 ORDER BY total_votes DESC LIMIT 1"
+"In the 2023 assembly elections, out of the top 100 constituencies with the highest voter turnout, how many had incumbent MLAs of the ruling party? ","SELECT COUNT(*) FROM eci_kr_2023 WHERE ac_no IN (SELECT ac_no FROM eci_kr_2023 GROUP BY ac_no ORDER BY total_votes/total_voters ASC LIMIT 100 ) AND party = ""Bharatiya Janata Party"";"
+"In the 2023 assembly elections, which party won the highest number of seats in the top 100 constituencies with the maximum number of voters and how many?","SELECT party, COUNT(*) AS num_seats FROM eci_kr_2023 WHERE total_votes < (SELECT MIN(total_votes) FROM eci_kr_2023) GROUP BY party ORDER BY num_seats DESC LIMIT 1;"
+Which constituency had the minimum number of voters in 2023 assembly elections?,"SELECT ac_name_y, total_votes FROM eci_kr_2023 ORDER BY total_votes ASC LIMIT 1;"
+How many votes were polled in the constituency with the minimum number of voters in 2023 assembly elections?,SELECT total_votes FROM eci_kr_2023 WHERE total_votes = (SELECT MIN(total_votes) FROM eci_kr_2023) LIMIT 1;
+What was the voter turnout in the constituency with the minimum number of voters in 2023 assembly elections?,"SELECT ac_name_y, total_votes, votes FROM eci_kr_2023 ORDER BY total_votes ASC LIMIT 1;"
+"In the 2023 assembly elections, out of the 100 constituencies with the lowest voter turnout, how many had incumbent MLAs of the ruling party?","SELECT COUNT(*) FROM eci_kr_2023 WHERE ac_no IN (SELECT ac_no FROM eci_kr_2023 GROUP BY ac_no ORDER BY total_votes/total_voters ASC LIMIT 100 ) AND party = ""Bharatiya Janata Party"";"
+"In the 2023 assembly elections, which party won the highest number of seats in the 100 constituencies with the least number of voters and how many?","SELECT party, COUNT(*) AS num_seats FROM eci_kr_2023 WHERE total_votes < (SELECT MIN(total_votes) FROM eci_kr_2023) GROUP BY party ORDER BY num_seats DESC LIMIT 1;"
+Number of candidates fielded by the BJP in 2023?,"SELECT COUNT(candidate_name) AS num_candidates FROM eci_kr_2023 WHERE party = ""Bharatiya Janata Party"" "
+Number of candidates fielded by the JD(s) in 2023?,"SELECT COUNT(candidate_name) AS num_candidates FROM eci_kr_2023 WHERE party = ""Janata Dal (Secular)"""
+Number of candidates fielded by the Congress in 2023?,"SELECT COUNT(candidate_name) AS num_candidates FROM eci_kr_2023 WHERE party = ""Indian National Congress"" AND st_name = ""Karnataka"""

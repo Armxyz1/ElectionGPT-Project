@@ -1,0 +1,62 @@
+q_id,topic,query,Ground Truth
+116,WOMEN CANDIDATES PERFORMANCE,In which year did the maximum number of women contested in UP elections?,583-2012
+117,MALE TO FEMALE CANDIDATE RATIO,How many male candidates contested in 2022 election?,3878
+118,MALE TO FEMALE CANDIDATE RATIO,How many women candidates contested in 2022 election?,561
+119,MALE TO FEMALE CANDIDATE RATIO,How many male candidates contested in 2017 elections?,4370
+120,MALE TO FEMALE CANDIDATE RATIO,How many women candidates contested in 2017 election?,482
+121,MALE TO FEMALE CANDIDATE RATIO,Which constituency recorded the highest female candidates in 2022 elections?,BALHA
+122,MALE TO FEMALE CANDIDATE RATIO,Which constituency recorded the highest female candidates in 2017 elections?,AMETHI
+123,MALE TO FEMALE CANDIDATE RATIO,From how many constituencies did women contest the polls in 2022?,318
+124,MALE TO FEMALE CANDIDATE RATIO,From how many constituencies did women contest the polls in 2017?,482
+125,ASSEMBLY ELECTION RESULTS TALLY IN DIFFERENT ELECTIONS,How many seats won by BJP in 2022?,255
+126,ASSEMBLY ELECTION RESULTS TALLY IN DIFFERENT ELECTIONS,How many seats did SP win in 2022?,111
+127,ASSEMBLY ELECTION RESULTS TALLY IN DIFFERENT ELECTIONS,How many seats won by BSP in 2022?,1
+128,ASSEMBLY ELECTION RESULTS TALLY IN DIFFERENT ELECTIONS,How many seats won by BJP in 2017?,312
+129,ASSEMBLY ELECTION RESULTS TALLY IN DIFFERENT ELECTIONS,How many seats did SP win in 2027?,47
+130,ASSEMBLY ELECTION RESULTS TALLY IN DIFFERENT ELECTIONS,How many seats won by BSP in 2017?,19
+131,SC CANDIDATES PERFORMANCE,How many SC candidates contested in the 2022 elections?,
+132,SC CANDIDATES PERFORMANCE,Which party fielded the highest number of SC candidates in 2022 election?,
+133,SC CANDIDATES PERFORMANCE,Which party has the highest SC winners in 2022 elections? ,
+134,SC CANDIDATES PERFORMANCE,How many SC candidates won in the 2022 elections? ,
+135,SC CANDIDATES PERFORMANCE,Which constituency witnessed the highest number of SC candidates contesting in 2022 elections?,
+136,SC CANDIDATES PERFORMANCE,What is the average margin of victory for winners who are SC in 2022 elections? ,
+137,SC CANDIDATES PERFORMANCE,What is the highest margin of victory among SC winners in 2022 elections?,
+138,SC CANDIDATES PERFORMANCE,How many male SC candidates contested in 2022 elections?,
+139,SC CANDIDATES PERFORMANCE,How many female SC candidates contested  in 2022 elections?,
+140,SC CANDIDATES PERFORMANCE,Who is the richest SC candidate who won the 2022 elections?,
+141,SC CANDIDATES PERFORMANCE,Who is the poorest SC candidate who won the 2022 elections?,
+142,SC CANDIDATES PERFORMANCE,How many SC candidates contested in the 2017 elections?,1169
+143,SC CANDIDATES PERFORMANCE,Which party fielded the highest number of SC candidates in 2017 election?,IND
+144,SC CANDIDATES PERFORMANCE,Which party has the highest SC winners in 2017 elections? ,BJP
+145,SC CANDIDATES PERFORMANCE,How many SC candidates won in the 2017 elections? ,86
+146,SC CANDIDATES PERFORMANCE,Which constituency witnessed the highest number of SC candidates contesting in 2017 elections?,BARA
+147,SC CANDIDATES PERFORMANCE,What is the average margin of victory for winners who are SC in 2017 elections? ,
+148,SC CANDIDATES PERFORMANCE,What is the highest margin of victory among SC winners in 2017 elections?,104643
+149,SC CANDIDATES PERFORMANCE,How many male SC candidates contested in 2017 elections?,1001
+150,SC CANDIDATES PERFORMANCE,How many female SC candidates contested  in 2017 elections?,167
+151,SC CANDIDATES PERFORMANCE,Who is the richest SC candidate who won the 2017 elections?,
+152,SC CANDIDATES PERFORMANCE,Who is the poorest SC candidate who won the 2017 elections?,
+153,NUMBER OF ELECTORS IN DIFFERENT ELECTIONS,How many electors were there in the 2022 assembly elections?,92162896
+154,NUMBER OF ELECTORS IN DIFFERENT ELECTIONS,How many electors were there in the 2017 assembly elections?,86727767
+155,NUMBER OF ELECTORS IN DIFFERENT ELECTIONS,How many electors were there in the 2007 assembly elections?,52595476
+156,NUMBER OF ELECTORS IN DIFFERENT ELECTIONS,Which constituency had the highest number of voters in 2022?,SAHIBABAD
+157,NUMBER OF ELECTORS IN DIFFERENT ELECTIONS,Which constituency had the highest number of voters in 2017?,SAHIBABAD
+158,NUMBER OF ELECTORS IN DIFFERENT ELECTIONS,Which constituency had the highest number of voters in 2007?,GOVINDNAGAR
+159,NUMBER OF ELECTORS IN DIFFERENT ELECTIONS,Which constituency had the lowest number of voters in 2022?,ARYANAGAR
+160,NUMBER OF ELECTORS IN DIFFERENT ELECTIONS,Which constituency had the lowest number of voters in 2017?,ARYANAGAR
+161,NUMBER OF ELECTORS IN DIFFERENT ELECTIONS,Which constituency had the lowest number of voters in 2007?,LUCKNOW EAST
+162,PARTY'S PERFORMANCE,Which party won in the election of 2022?,
+163,PARTY'S PERFORMANCE,How much votes get by the winning Party ?,
+164,PARTY'S PERFORMANCE,Top three MLAs who get the highest vote in BJP in 2022 election ?,
+165,PARTY'S PERFORMANCE,How many women Candidate won from BJP in 2022 election ?,
+166,PARTY'S PERFORMANCE,How much vote get by BSP  in 2022 election ?,
+167,PARTY'S PERFORMANCE,Top three MLAs who get the highest vote in BSP in 2022 election ?,
+168,PARTY'S PERFORMANCE,How many women Candidate won in BSP in 2022 election ?,
+169,PARTY'S PERFORMANCE,How much vote get by SP  in 2022 election ?,
+170,PARTY'S PERFORMANCE,who are the top three MLAs who get the highest vote in SP in 2022 election ?,
+171,PARTY'S PERFORMANCE,How many women Candidate won in SP in 2022 election ?,
+172,PARTY'S PERFORMANCE,How many candidate won in SP in election 2022 ?,
+173,PARTY'S PERFORMANCE,How many vote get by Congress  in 2022 election ?,
+174,PARTY'S PERFORMANCE,Who are the top three MLAs who get the highest vote in Congress in 2022 election ?,
+175,PARTY'S PERFORMANCE,How many women Candidate won in Congress in 2022 election ?,
+176,PARTY'S PERFORMANCE,How many candidate won in Congress  in election 2022 ?,

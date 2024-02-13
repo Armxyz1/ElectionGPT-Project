@@ -1,0 +1,326 @@
+q_id,topic,query,Ground Truth,,
+1,RE-ELECTION OF MLAS,Who served UP assembly for the longest time?,,,SELECT Candidate_Name, MAX(No_Terms) FROM Uttar_Pradesh_AE
+2,RE-ELECTION OF MLAS,How many MLAs got reelected in 2022?,195,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Year=2022 AND Recontest=1 AND Position=1
+3,RE-ELECTION OF MLAS,How many MLAs got reelected in 2017?,173,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Year=2017 AND Recontest=1 AND Position=1
+4,RE-ELECTION OF MLAS,How many MLAs got reelected in the last five Assembly Elections?,919,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Recontest=1 AND Position=1 AND Year IN (2022, 2017, 2012, 2007, 2002)
+5,RE-ELECTION OF MLAS,How many MLAs got reelected in the last ten Assembly Elections?,,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Recontest=1 AND Position=1 AND Year IN (2022, 2017, 2012, 2007, 2002)
+6,RE-ELECTION OF MLAS,How many MLAs of SP got reelected in 2017?,31,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='SP' AND Year=2017 AND Recontest=1 AND Position=1
+7,RE-ELECTION OF MLAS,How many MLAs of SP got reelected in 2022?,54,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='SP' AND Recontest=1 AND Year=2022 AND Position=1
+8,RE-ELECTION OF MLAS,How many MLAs of SP got reelected in the last five elections?,303,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='SP' AND Recontest=1 AND Position=1 AND Year IN (2022, 2017, 2012, 2007, 2002)
+9,RE-ELECTION OF MLAS,How many MLAs of BSP got reelected in 2017?,8,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='BSP' AND Year=2017 AND Recontest=1 AND Position=1
+10,RE-ELECTION OF MLAS,How many MLAs of BSP got reelected in 2022?,0,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='BSP' AND Recontest=1 AND Year=2022 AND Position=1
+11,RE-ELECTION OF MLAS,How many MLAs of BSP got reelected in the last five elections?,152,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='BSP' AND Recontest=1 AND Position=1 AND Year IN (2022, 2017, 2012, 2007, 2002)
+12,RE-ELECTION OF MLAS,How many MLAs of BJP got reelected in 2017?,126,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='BJP' AND Recontest=1 AND Year=2017 AND Position=1
+13,RE-ELECTION OF MLAS,How many MLAs of BJP got reelected in 2022?,130,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='BJP' AND Recontest=1 AND Year=2022 AND Position=1
+14,RE-ELECTION OF MLAS,How many MLAs of BJP got reelected in the last five elections?,365,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='BJP' AND Recontest=1 AND Position=1 AND Year IN (2022, 2017, 2012, 2007, 2002)
+15,RE-ELECTION OF MLAS,How many MLAs of Congress got reelected in 2017?,3,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='INC' AND Recontest=1 AND Year=2017
+16,RE-ELECTION OF MLAS,How many MLAs of Congress got reelected in 2022?,2,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='INC' AND Recontest=1 AND Year=2022
+17,RE-ELECTION OF MLAS,How many MLAs of Congress got reelected in the last five elections?,43,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='INC' AND Recontest=1 AND Position=1 AND Year IN (2022, 2017, 2012, 2007, 2002)
+18,RE-ELECTION OF MLAS,How many independent MLAs got reelected in 2017?,2,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Year=2017 AND Party='IND' AND Recontest=1 AND Position=1
+19,RE-ELECTION OF MLAS,How many independent MLAs got reelected in 2022?,0,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='IND' AND Recontest=1 AND Year=2022
+20,RE-ELECTION OF MLAS,How many independent MLAs got reelected in the last five elections?,12,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='IND' AND Recontest=1 AND Position=1 AND Year IN (2022, 2017, 2012, 2007, 2002)
+21,MAXIMUM MARGIN,How many MLAs won with more than one lakh votes in 2022 election?,225,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Year=2022 AND Position=1 AND Votes>100000
+22,MAXIMUM MARGIN,How many MLAs won with more than one lakh votes in 2017 election?,123,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Year=2017 AND Position=1 AND Votes>100000
+23,MAXIMUM MARGIN,How many MLAs won with more than Fifty thousand votes in 2022 election?,403,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Votes > 50000 AND Year = 2022 AND Position = 1
+24,MAXIMUM MARGIN,How many MLAs won with more than Fifty thousand votes in 2017 election?,403,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Votes > 50000 AND Year = 2017 AND Position = 1
+25,MAXIMUM MARGIN,How many MLAs won with more than Twenty Five thousand votes in 2022 election?,403,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Votes > 25000 AND Year = 2022 AND Position = 1
+26,MAXIMUM MARGIN,How many MLAs won with more than Twenty Five thousand votes in 2017 election?,403,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Votes > 25000 AND Year = 2017 AND Position = 1
+27,MAXIMUM MARGIN,Who registered the highest victory margin in the 2022 election?,SUNIL KUMAR SHARMA,,SELECT Candidate_Name FROM Uttar_Pradesh_AE WHERE Year=2022 AND Position=1 ORDER BY Margin DESC LIMIT 1
+28,MAXIMUM MARGIN,Who registered the highest victory margin in the 2017 election?,SUNIL KUMAR SHARMA,,SELECT Candidate_Name FROM Uttar_Pradesh_AE WHERE Year=2017 AND Position=1 ORDER BY Margin DESC LIMIT 1
+29,MAXIMUM MARGIN,Who registered the highest victory margin in the last five elections?,SUNIL KUMAR SHARMA,,SELECT Candidate_Name 
+FROM Uttar_Pradesh_AE 
+WHERE Year IN (2022, 2017, 2012, 2007, 2002) 
+AND Position = 1 
+ORDER BY Margin DESC 
+LIMIT 1
+30,MAXIMUM MARGIN,How many MLAs of BJP have victory margin over ten thousand votes in 2022 election?,254,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='BJP' AND Margin>10000 AND Year=2022 AND Position=1
+31,MAXIMUM MARGIN,How many MLAs of Congress have victory margin over ten thousand votes in 2022 election?,2,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='INC' AND Margin>10000 AND Year=2022 AND Position=1
+32,MAXIMUM MARGIN,How many MLAs of BSP have victory margin over ten thousand votes in 2022 election?,1,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='BSP' AND Margin>10000 AND Year=2022 AND Position=1
+33,MAXIMUM MARGIN,How many MLAs of SP have victory margin over ten thousand votes in 2022 election?,111,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='SP' AND Margin>10000 AND Year=2022 AND Position=1
+34,MAXIMUM MARGIN,How many MLAs of BJP have victory margin over ten thousand votes in 2017 election?,312,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='BJP' AND Margin>10000 AND Year=2017 AND Position=1
+35,MAXIMUM MARGIN,How many MLAs of Congress have victory margin over ten thousand votes in 2017 election?,7,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='INC' AND Margin>10000 AND Year=2017 AND Position=1
+36,MAXIMUM MARGIN,How many MLAs of BSP have victory margin over ten thousand votes in 2017 election?,19,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='BSP' AND Margin>10000 AND Year=2017 AND Position=1
+37,MAXIMUM MARGIN,How many MLAs of SP have victory margin over ten thousand votes in 2017 election?,47,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='SP' AND Margin>10000 AND Year=2017 AND Position=1
+38,MINIMUM MARGIN,How many MLAs lost with less than hundred votes in 2022 election?,23,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Votes < 100 AND Year = 2022 AND Position <> 1
+39,MINIMUM MARGIN,How many MLAs lost with less than hundred votes in 2017 election?,18,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Year=2017 AND Position<>1 AND Votes<100
+40,MINIMUM MARGIN,How many MLAs lost with less than five hundred votes in 2022 election?,1120,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Votes < 500 AND Year = 2022 AND Position <> 1
+41,MINIMUM MARGIN,How many MLAs lost with less than five hundred votes in 2017 election?,1103,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Year=2017 AND Position!=1 AND Votes<500
+42,MINIMUM MARGIN,How many MLAs lost with less than one thousand votes in 2022 election?,2209,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Votes < 1000 AND Year = 2022 AND Position != 1
+43,MINIMUM MARGIN,How many MLAs lost with less than one thousand votes in 2017 election?,2405,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Year=2017 AND Position!=1 AND Votes<1000
+44,MINIMUM MARGIN,How many MLAs lost with less than five thousand votes in 2022 election?,3505,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Votes < 5000 AND Year = 2022 AND Position <> 1
+45,MINIMUM MARGIN,How many MLAs lost with less than five thousand votes in 2017 election?,3860,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Year=2017 AND Position!=1 AND Votes<5000
+46,MINIMUM MARGIN,Who registered the lowest victory margin in the 2022 election?,ASHOK KUMAR RANA,,SELECT Candidate_Name FROM Uttar_Pradesh_AE WHERE Year=2022 AND Position=1 ORDER BY Margin ASC LIMIT 1
+47,MINIMUM MARGIN,Who registered the lowest victory margin in the 2017 election?,RAGHVENDRA PRATAP SINGH,,SELECT Candidate_Name FROM Uttar_Pradesh_AE WHERE Year=2017 AND Position=1 ORDER BY Margin ASC LIMIT 1
+48,MINIMUM MARGIN,Who registered the lowest victory margin in the last five elections?,Mo. IKram,,SELECT Candidate_Name FROM Uttar_Pradesh_AE WHERE Position=1 AND Year IN (2022, 2017, 2012, 2007, 2002) ORDER BY Margin ASC LIMIT 1
+49,MINIMUM MARGIN,How many MLAs of BJP have victory margin less than five thousand votes in 2022 election?,0,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='BJP' AND Margin < 5000 AND Year=2022 AND Position=1
+50,MINIMUM MARGIN,How many MLAs of Congress have victory margin less than five thousand votes in 2022 election?,0,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='INC' AND Margin<5000 AND Year=2022 AND Position=1
+51,MINIMUM MARGIN,How many MLAs of BSP have victory margin less than five thousand votes in 2022 election?,0,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='BSP' AND Margin < 5000 AND Year=2022 AND Position=1
+52,MINIMUM MARGIN,How many MLAs of SP have victory margin less than five thousand votes in 2022 election?,0,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='SP' AND Margin < 5000 AND Year=2022 AND Position=1
+53,MINIMUM MARGIN,How many MLAs of BJP have victory margin less than five thousand votes in 2017 election?,0,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='BJP' AND Margin < 5000 AND Year=2017 AND Position=1
+54,MINIMUM MARGIN,How many MLAs of Congress have victory margin less than five thousand votes in 2017 election?,0,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='INC' AND Margin<5000 AND Year=2017 AND Position=1
+55,MINIMUM MARGIN,How many MLAs of BSP have victory margin less than five thousand votes in 2017election?,0,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='BSP' AND Margin < 5000 AND Year=2017 AND Position=1
+56,MINIMUM MARGIN,How many MLAs of SP have victory margin less than five thousand votes in 2017 election?,0,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='SP' AND Margin < 5000 AND Year=2017 AND Position=1
+57,MAXIMUM CANDIDATES IN A CONSTITUENCY,Which constituency recorded the largest number of candidates in 2022?,JAUNPUR,,SELECT Constituency_Name FROM Uttar_Pradesh_AE WHERE Year=2022 GROUP BY Constituency_Name ORDER BY COUNT(Candidate_Name) DESC LIMIT 1;
+58,MAXIMUM CANDIDATES IN A CONSTITUENCY,How many candidates contested in 2022 from Aligarh constituency?,12,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Year=2022 AND Constituency_Name='Aligarh'
+59,MAXIMUM CANDIDATES IN A CONSTITUENCY,Which constituency recorded the largest number of candidates in 2017?,AGRA SOUTH,,SELECT Constituency_Name FROM Uttar_Pradesh_AE WHERE Year=2017 GROUP BY Constituency_Name ORDER BY COUNT(Candidate_Name) DESC LIMIT 1;
+60,MAXIMUM CANDIDATES IN A CONSTITUENCY,How many candidates contested in 2017 from Aligarh constituency?,12,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Year=2017 AND Constituency_Name='Aligarh'
+61,MAXIMUM CANDIDATES IN A CONSTITUENCY,What was the highest margin of victory recorded in the constituency where maximum candidates contested the polls in 2022?,JAUNPUR Consitutency ,,SELECT MAX(Margin) FROM Uttar_Pradesh_AE WHERE Year=2022 AND No_Cand=(SELECT MAX(No_Cand) FROM Uttar_Pradesh_AE WHERE Year=2022) AND Position=1
+62,MAXIMUM CANDIDATES IN A CONSTITUENCY,What was the voter-turnout in constituency with the largest number of candidates?,58.28,,SELECT MAX(Turnout_Percentage) FROM Uttar_Pradesh_AE WHERE No_Cand = (SELECT MAX(No_Cand) FROM Uttar_Pradesh_AE)
+63,MAXIMUM CANDIDATES IN A CONSTITUENCY,How many candidates lost their deposits from the constituency with maximum candidates in the 2022 elections?,23,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Constituency_No = (SELECT Constituency_No FROM Uttar_Pradesh_AE WHERE Year = 2022 GROUP BY Constituency_No ORDER BY COUNT(*) DESC LIMIT 1) AND Deposit_Lost = 1
+64,MAXIMUM CANDIDATES IN A CONSTITUENCY,How many candidates lost their deposits from the constituency with maximum candidates in the 2017 elections?,23,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Year=2017 AND Constituency_No=(SELECT Constituency_No FROM Uttar_Pradesh_AE WHERE Year=2017 GROUP BY Constituency_No ORDER BY COUNT(Candidate_Name) DESC LIMIT 1) AND Deposit_Lost=1
+65,MINIMUM CANDIDATES IN THE CONSTITUENCY,Which constituency recorded the minimum number of candidates in 2022?,KARHAL,,SELECT Constituency_Name FROM Uttar_Pradesh_AE WHERE Year=2022 GROUP BY Constituency_Name HAVING COUNT(Candidate_Name) = (SELECT MIN(No_Cand) FROM Uttar_Pradesh_AE WHERE Year=2022)
+66,MINIMUM CANDIDATES IN THE CONSTITUENCY,How many candidates contested from the constituency where least number of candidates contested the polls in 2022?,KARHAL,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Year=2022 AND Constituency_No=(SELECT Constituency_No FROM Uttar_Pradesh_AE WHERE Year=2022 GROUP BY Constituency_No ORDER BY COUNT(Candidate_Name) ASC LIMIT 1)
+67,MINIMUM CANDIDATES IN THE CONSTITUENCY,Which constituency recorded the minimum number of candidates in 2017?,HAIDERGARH,,SELECT Constituency_Name FROM Uttar_Pradesh_AE WHERE Year=2017 GROUP BY Constituency_Name HAVING COUNT(Candidate_Name) = (SELECT MIN(No_Cand) FROM Uttar_Pradesh_AE WHERE Year=2017)
+68,MINIMUM CANDIDATES IN THE CONSTITUENCY,How many candidates contested from the constituency where least number of candidates contested the polls in 2017?,HAIDERGARH,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Year=2017 AND Constituency_No=(SELECT Constituency_No FROM Uttar_Pradesh_AE WHERE Year=2017 GROUP BY Constituency_No ORDER BY COUNT(Candidate_Name) ASC LIMIT 1)
+69,MINIMUM CANDIDATES IN THE CONSTITUENCY,What was the margin of victory recorded in the constituency where least number of candidates contested the polls in 2022?,33520,,SELECT Margin 
+FROM Uttar_Pradesh_AE 
+WHERE Year = 2022 
+AND No_Cand = (SELECT MIN(No_Cand) FROM Uttar_Pradesh_AE WHERE Year = 2022) 
+AND Position = 1
+70,MINIMUM CANDIDATES IN THE CONSTITUENCY,What was the voter-turnout in a constituency with the least number of candidates 2017?,64.61,,SELECT MIN(Turnout_Percentage) FROM Uttar_Pradesh_AE WHERE Year=2017 AND No_Cand=(SELECT MIN(No_Cand) FROM Uttar_Pradesh_AE WHERE Year=2017)
+71,MINIMUM CANDIDATES IN THE CONSTITUENCY,How many candidates lost their deposits from the constituency with least number of candidates in the 2022 elections?,1,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Constituency_No = (SELECT Constituency_No FROM Uttar_Pradesh_AE WHERE Year = 2022 GROUP BY Constituency_No ORDER BY COUNT(*) ASC LIMIT 1) AND Deposit_Lost = 1
+72,MINIMUM CANDIDATES IN THE CONSTITUENCY,How many candidates lost their deposits from the constituency with least number of candidates in the 2017 elections?,0,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Year=2017 AND Deposit_Lost=1 AND Constituency_No IN (SELECT Constituency_No FROM Uttar_Pradesh_AE WHERE Year=2017 GROUP BY Constituency_No ORDER BY COUNT(*) ASC LIMIT 1)
+73,NUMBER OF CANDIDATES FIELDED BY PROMINENT PARTIES IN ELECTIONS,Number of candidates fielded by the BJP in 2022?,375,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Party='BJP' AND Year=2022
+74,NUMBER OF CANDIDATES FIELDED BY PROMINENT PARTIES IN ELECTIONS,Number of candidates fielded by the SP in 2022?,347,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Party='SP' AND Year=2022
+75,NUMBER OF CANDIDATES FIELDED BY PROMINENT PARTIES IN ELECTIONS,Number of candidates fielded by the BSP in 2022?,403,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Party='BSP' AND Year=2022
+76,NUMBER OF CANDIDATES FIELDED BY PROMINENT PARTIES IN ELECTIONS,Number of candidates fielded by the Congress in 2022?,399,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Party='INC' AND Year=2022
+77,NUMBER OF CANDIDATES FIELDED BY PROMINENT PARTIES IN ELECTIONS,Number of candidates fielded by the BJP in 2017?,384,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Party='BJP' AND Year=2017
+78,NUMBER OF CANDIDATES FIELDED BY PROMINENT PARTIES IN ELECTIONS,How many candidates were Number of candidates fielded by the SP in 2017?,311,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Party='SP' AND Year=2017
+79,NUMBER OF CANDIDATES FIELDED BY PROMINENT PARTIES IN ELECTIONS,How many candidates were fielded by the BSP in 2017?,403,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Party='BSP' AND Year=2017
+80,NUMBER OF CANDIDATES FIELDED BY PROMINENT PARTIES IN ELECTIONS,How many candidates were fielded by the Congress in 2017?,114,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Party='INC' AND Year=2017
+81,NUMBER OF CANDIDATES FIELDED BY PROMINENT PARTIES IN ELECTIONS,How many independant candidates contested in 2017?,1462,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Party='IND' AND Year=2017
+82,VOTER TURNOUT - URBAN/ RURAL,What is the number of urban constituencies in Uttar Pradesh?,,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Constituency_Type = 'Urban'
+83,VOTER TURNOUT - URBAN/ RURAL,What is the number of rural constituencies in Uttar Pradesh?,,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Constituency_Type = 'Rural'
+84,VOTER TURNOUT - URBAN/ RURAL,What is the percentage of rural electors in the state in 2022 polls?,,,SELECT (SUM(Electors) / (SELECT SUM(Electors) FROM Uttar_Pradesh_AE WHERE Year = 2022 AND Sub_Region = 'Rural')) * 100 FROM Uttar_Pradesh_AE WHERE Year = 2022 AND Sub_Region = 'Rural'
+85,VOTER TURNOUT - URBAN/ RURAL,What is the percentage of urban electors in the state in 2022 polls?,,,SELECT (SUM(Electors) / (SELECT SUM(Electors) FROM Uttar_Pradesh_AE WHERE Year = 2022)) * 100 FROM Uttar_Pradesh_AE WHERE Year = 2022 AND Sub_Region = 'Urban'
+86,VOTER TURNOUT - URBAN/ RURAL,What is the percentage of rural electors in the state in 2017 polls?,,,SELECT (SUM(Electors) / (SELECT SUM(Electors) FROM Uttar_Pradesh_AE WHERE Year = 2017)) * 100 FROM Uttar_Pradesh_AE WHERE Year = 2017 AND Sub_Region = 'Rural'
+87,VOTER TURNOUT - URBAN/ RURAL,What is the percentage of urban electors in the state in 2017 polls?,,,SELECT (SUM(Electors) / (SELECT SUM(Electors) FROM Uttar_Pradesh_AE WHERE Year = 2017)) * 100 FROM Uttar_Pradesh_AE WHERE Year = 2017 AND Sub_Region = 'Urban'
+88,VOTER TURNOUT - URBAN/ RURAL,Can you share the total voter turnout from the rural seats in 2022 polls?,,,SELECT SUM(Turnout_Percentage) FROM Uttar_Pradesh_AE WHERE Constituency_Type = 'Rural' AND Year = 2022
+89,VOTER TURNOUT - URBAN/ RURAL,Can you share the total voter turnout from the urban seats in 2022 polls?,,,SELECT SUM(Turnout_Percentage) FROM Uttar_Pradesh_AE WHERE Constituency_Type = 'Urban' AND Year = 2022
+90,VOTER TURNOUT - URBAN/ RURAL,Can you share the total voter turnout from the rural seats in 2017 polls?,,,SELECT SUM(Turnout_Percentage) FROM Uttar_Pradesh_AE WHERE Constituency_Type = 'Rural' AND Year = 2017
+91,VOTER TURNOUT - URBAN/ RURAL,Can you share the total voter turnout from the urban seats in 2017 polls?,,,SELECT SUM(Turnout_Percentage) FROM Uttar_Pradesh_AE WHERE Constituency_Type = 'Urban' AND Year = 2017
+92,VOTER TURNOUT - URBAN/ RURAL,Which urban constituency recorded the highest voter turnout in 2022 polls?,,,SELECT Constituency_Name FROM Uttar_Pradesh_AE WHERE Year=2022 AND Constituency_Type='Urban' ORDER BY Turnout_Percentage DESC LIMIT 1;
+93,VOTER TURNOUT - URBAN/ RURAL,Which rural constituency recorded the highest voter turnout in 2022 polls?,,,SELECT Constituency_Name FROM Uttar_Pradesh_AE WHERE Year=2022 AND Constituency_Type='Rural' ORDER BY Turnout_Percentage DESC LIMIT 1
+94,VOTER TURNOUT - URBAN/ RURAL,Which urban constituency recorded the lowest voter turnout in 2017 polls?,,,SELECT Constituency_Name FROM Uttar_Pradesh_AE WHERE Year=2017 AND Constituency_Type='Urban' ORDER BY Turnout_Percentage ASC LIMIT 1;
+95,VOTER TURNOUT - URBAN/ RURAL,Which rural constituency recorded the lowest voter turnout in 2017 polls?,,,SELECT Constituency_Name FROM Uttar_Pradesh_AE WHERE Year=2017 AND Constituency_Type='Rural' ORDER BY Turnout_Percentage ASC LIMIT 1;
+96,WOMEN CANDIDATES PERFORMANCE,How many women candidates contested in the 2022 elections?,561,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Gender='F' AND Year=2022
+97,WOMEN CANDIDATES PERFORMANCE,Which party fielded the maximum number of women candidates in 2022 elections?,INC,,SELECT Party
+FROM Uttar_Pradesh_AE
+WHERE Year = 2022
+GROUP BY Party
+HAVING COUNT(CASE WHEN Gender = 'F' THEN 1 END) = (SELECT MAX(count_women)
+                                                   FROM (SELECT Party, COUNT(CASE WHEN Gender = 'F' THEN 1 END) AS count_women
+                                                         FROM Uttar_Pradesh_AE
+                                                         WHERE Year = 2022
+                                                         GROUP BY Party) AS women_counts)
+98,WOMEN CANDIDATES PERFORMANCE,Women candidates from which party won in maximum numbers in 2022 polls?,BJP,,SELECT Party FROM Uttar_Pradesh_AE WHERE Position=1 AND Gender='F' AND Year=2022 GROUP BY Party ORDER BY COUNT(*) DESC LIMIT 1
+99,WOMEN CANDIDATES PERFORMANCE,How many women candidates were elected in 2022 elections?,47,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Gender='F' AND Year=2022 AND Position=1
+100,WOMEN CANDIDATES PERFORMANCE,What is the percentage women winner over who contested?,1.3,,SELECT (COUNT(CASE WHEN Gender='F' AND Position=1 THEN 1 END) / COUNT(CASE WHEN Gender='F' THEN 1 END)) * 100 
+FROM Uttar_Pradesh_AE
+101,WOMEN CANDIDATES PERFORMANCE,Which constituency witnessed the highest number of women candidates contesting in 2022 elections?,BALHA,,SELECT Constituency_Name 
+FROM Uttar_Pradesh_AE 
+WHERE Year = 2022 
+GROUP BY Constituency_Name 
+HAVING COUNT(CASE WHEN Gender = 'F' THEN 1 END) = (SELECT MAX(num_candidates) 
+                                                   FROM (SELECT COUNT(Candidate_Name) as num_candidates 
+                                                         FROM Uttar_Pradesh_AE 
+                                                         WHERE Year = 2022 
+                                                         GROUP BY Constituency_Name) AS temp)
+102,WOMEN CANDIDATES PERFORMANCE,What is the average margin of victory for women candidates in 2022 elections?,9871.8,,SELECT AVG(Margin) FROM Uttar_Pradesh_AE WHERE Gender='F' AND Year=2022 AND Position=1
+103,WOMEN CANDIDATES PERFORMANCE,What is the highest margin of victory among women winners in 2022 elections?,ANJULA SINGH MAHAUR,,SELECT MAX(Margin) FROM Uttar_Pradesh_AE WHERE Gender='F' AND Year=2022 AND Position=1
+104,WOMEN CANDIDATES PERFORMANCE,Who is the richest women candidates to contest the 2022 elections?,,,SELECT Candidate_Name 
+FROM Uttar_Pradesh_AE 
+WHERE Year = 2022 
+AND Gender = 'F' 
+ORDER BY Valid_Votes DESC 
+LIMIT 1
+105,WOMEN CANDIDATES PERFORMANCE,Who is the poorest women candidate to contest the 2022 elections?,,,SELECT Candidate_Name 
+FROM Uttar_Pradesh_AE 
+WHERE Year = 2022 
+AND Gender = 'F' 
+ORDER BY Deposit_Lost ASC 
+LIMIT 1
+106,WOMEN CANDIDATES PERFORMANCE,How many women candidates contested in the 2017 elections?,482,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Gender='F' AND Year=2017
+107,WOMEN CANDIDATES PERFORMANCE,How many women candidates were elected in 2017 elections? What is the percentage of the same?,,,SELECT COUNT(Candidate_Name) AS num_women_candidates 
+FROM Uttar_Pradesh_AE 
+WHERE Gender='F' AND Year=2017 AND Position=1;
+
+SELECT (COUNT(Candidate_Name) * 100 / (SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Year=2017 AND Position=1)) AS percentage_women_candidates 
+FROM Uttar_Pradesh_AE 
+WHERE Gender='F' AND Year=2017 AND Position=1;
+108,WOMEN CANDIDATES PERFORMANCE,Which party fielded the maximum number of women candidates in 2017 elections?,IND,,SELECT Party FROM Uttar_Pradesh_AE WHERE Year=2017 AND Gender='F' GROUP BY Party ORDER BY COUNT(*) DESC LIMIT 1
+109,WOMEN CANDIDATES PERFORMANCE,Women candidates from which party won in maximum numbers in 2017 polls?,BJP,,SELECT Party FROM Uttar_Pradesh_AE WHERE Position=1 AND Gender='F' AND Year=2017 GROUP BY Party ORDER BY COUNT(*) DESC LIMIT 1
+110,WOMEN CANDIDATES PERFORMANCE,Which constituency witnessed the highest number of women candidates contesting in 2017 elections?,AMETHI,,SELECT Constituency_Name FROM Uttar_Pradesh_AE WHERE Year=2017 GROUP BY Constituency_Name HAVING COUNT(CASE WHEN Gender='F' THEN 1 END) = (SELECT MAX(num_candidates) FROM (SELECT COUNT(CASE WHEN Gender='F' THEN 1 END) as num_candidates FROM Uttar_Pradesh_AE WHERE Year=2017 GROUP BY Constituency_Name) as temp)
+111,WOMEN CANDIDATES PERFORMANCE,What is the average margin of victory for women candidates in 2017 elections?,30675.3,,SELECT AVG(Margin) FROM Uttar_Pradesh_AE WHERE Gender='F' AND Year=2017 AND Position=1
+112,WOMEN CANDIDATES PERFORMANCE,What is the highest margin of victory among women winners in 2017 elections?,MANISHA ANURAGI,,SELECT MAX(Margin) FROM Uttar_Pradesh_AE WHERE Gender='F' AND Year=2017 AND Position=1
+113,WOMEN CANDIDATES PERFORMANCE,How many men candidates were elected in 2017 elections? What is the percentage of the same?,,,SELECT COUNT(Candidate_Name) AS num_men_candidates, 
+       (COUNT(Candidate_Name) / (SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Year = 2017)) * 100 AS percentage_men_candidates 
+FROM Uttar_Pradesh_AE 
+WHERE Year = 2017 
+AND Gender = 'M' 
+AND Position = 1
+114,WOMEN CANDIDATES PERFORMANCE,Who is the richest women candidates to contest the 2017 elections?,,,SELECT Candidate_Name 
+FROM Uttar_Pradesh_AE 
+WHERE Year = 2017 
+AND Gender = 'F' 
+ORDER BY Valid_Votes DESC 
+LIMIT 1
+115,WOMEN CANDIDATES PERFORMANCE,Who is the poorest women candidate to contest the 2017 elections?,,,SELECT Candidate_Name 
+FROM Uttar_Pradesh_AE 
+WHERE Year = 2017 
+ORDER BY Deposit_Lost ASC 
+LIMIT 1
+116,WOMEN CANDIDATES PERFORMANCE,"In which year, did the maximum number of women contested in UP elections?",,In which year what? Please provide more information or specify your query.
+117,MALE TO FEMALE CANDIDATE RATIO,How many male candidates contested in 2022 election?,3878,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Gender='Male' AND Year=2022
+118,MALE TO FEMALE CANDIDATE RATIO,How many women candidates contested in 2022 election?,561,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Gender='F' AND Year=2022
+119,MALE TO FEMALE CANDIDATE RATIO,How many male candidates contested in 2017 elections?,4370,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Gender='Male' AND Year=2017
+120,MALE TO FEMALE CANDIDATE RATIO,How many women candidates contested in 2017 election?,482,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Gender='F' AND Year=2017
+121,MALE TO FEMALE CANDIDATE RATIO,Which constituency recorded the highest female candidates in 2022 elections?,BALHA,,SELECT Constituency_Name FROM Uttar_Pradesh_AE WHERE Year=2022 GROUP BY Constituency_Name ORDER BY COUNT(CASE WHEN Gender='F' THEN 1 END) DESC LIMIT 1;
+122,MALE TO FEMALE CANDIDATE RATIO,Which constituency recorded the highest female candidates in 2017 elections?,AMETHI,,SELECT Constituency_Name FROM Uttar_Pradesh_AE WHERE Year=2017 GROUP BY Constituency_Name HAVING COUNT(Gender) = (SELECT MAX(count) FROM (SELECT COUNT(Gender) as count FROM Uttar_Pradesh_AE WHERE Year=2017 AND Gender='F' GROUP BY Constituency_Name) as temp)
+123,MALE TO FEMALE CANDIDATE RATIO,From how many constituencies did women contest the polls in 2022?,318,,SELECT COUNT(DISTINCT Constituency_No) FROM Uttar_Pradesh_AE WHERE Gender='F' AND Year=2022 AND Candidate_Type='C'
+124,MALE TO FEMALE CANDIDATE RATIO,From how many constituencies did women contest the polls in 2017?,482,,SELECT COUNT(DISTINCT Constituency_No) FROM Uttar_Pradesh_AE WHERE Gender='F' AND Year=2017
+125,"ASSEMBLY ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",How many seats won by BJP in 2022?,,SELECT Year, COUNT(*) AS Tally FROM Uttar_Pradesh_AE GROUP BY Year
+126,"ASSEMBLY ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",How many seats did SP win in 2022?,,SELECT Year, COUNT(*) AS Tally FROM Uttar_Pradesh_AE GROUP BY Year
+127,"ASSEMBLY ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",How many seats won by BSP in 2022?,,SELECT Year, COUNT(*) AS Tally FROM Uttar_Pradesh_AE GROUP BY Year
+128,"ASSEMBLY ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",How many seats won by BJP in 2017?,,SELECT Year, COUNT(*) AS Tally FROM Uttar_Pradesh_AE GROUP BY Year
+129,"ASSEMBLY ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",How many seats did SP win in 2027?,,SELECT Year, COUNT(*) AS Tally FROM Uttar_Pradesh_AE GROUP BY Year
+130,"ASSEMBLY ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",How many seats won by BSP in 2017?,,SELECT Year, COUNT(*) AS Tally FROM Uttar_Pradesh_AE GROUP BY Year
+131,SC CANDIDATES PERFORMANCE,How many SC candidates contested in the 2022 elections?,,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Year=2022 AND Candidate_Type='SC'
+132,SC CANDIDATES PERFORMANCE,Which party fielded the highest number of SC candidates in 2022 election?,,,SELECT Party
+FROM Uttar_Pradesh_AE
+WHERE Year = 2022
+GROUP BY Party
+HAVING COUNT(CASE WHEN Candidate_Type = 'SC' THEN 1 END) = 
+(SELECT MAX(SC_Count)
+FROM (SELECT COUNT(CASE WHEN Candidate_Type = 'SC' THEN 1 END) AS SC_Count
+FROM Uttar_Pradesh_AE
+WHERE Year = 2022
+GROUP BY Party) AS T)
+133,SC CANDIDATES PERFORMANCE,Which party has the highest SC winners in 2022 elections? ,,,SELECT Party 
+FROM Uttar_Pradesh_AE 
+WHERE Position = 1 AND Year = 2022 
+GROUP BY Party 
+HAVING COUNT(Gender = 'M' AND Party = 'SC') = (SELECT MAX(count) 
+                                               FROM (SELECT COUNT(*) AS count 
+                                                     FROM Uttar_Pradesh_AE 
+                                                     WHERE Position = 1 AND Year = 2022 AND Gender = 'M' AND Party = 'SC' 
+                                                     GROUP BY Party) AS temp)
+134,SC CANDIDATES PERFORMANCE,How many SC candidates won in the 2022 elections? ,,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Year=2022 AND Position=1 AND Candidate_Type='SC'
+135,SC CANDIDATES PERFORMANCE,Which constituency witnessed the highest number of SC candidates contesting in 2022 elections?,,,SELECT Constituency_Name FROM Uttar_Pradesh_AE WHERE Year=2022 GROUP BY Constituency_Name HAVING COUNT(CASE WHEN Candidate_Type='SC' THEN 1 END) = (SELECT MAX(SC_Count) FROM (SELECT COUNT(CASE WHEN Candidate_Type='SC' THEN 1 END) AS SC_Count FROM Uttar_Pradesh_AE WHERE Year=2022 GROUP BY Constituency_Name) AS T)
+136,SC CANDIDATES PERFORMANCE,What is the average margin of victory for winners who are SC in 2022 elections? ,,,SELECT AVG(Margin) FROM Uttar_Pradesh_AE WHERE Position=1 AND Candidate_Type='SC' AND Year=2022
+137,SC CANDIDATES PERFORMANCE,What is the highest margin of victory among SC winners in 2022 elections?,,,SELECT MAX(Margin) FROM Uttar_Pradesh_AE WHERE Position=1 AND Year=2022 AND Sub_Region='SC'
+138,SC CANDIDATES PERFORMANCE,How many male SC candidates contested in 2022 elections?,,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Gender='Male' AND Candidate_Type='SC' AND Year=2022
+139,SC CANDIDATES PERFORMANCE,How many female SC candidates contested  in 2022 elections?,,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Gender='F' AND Candidate_Type='SC' AND Year=2022
+140,SC CANDIDATES PERFORMANCE,Who is the richest SC candidate who won the 2022 elections?,,,SELECT Candidate_Name 
+FROM Uttar_Pradesh_AE 
+WHERE Position=1 AND Year=2022 AND Candidate_Type='SC' 
+ORDER BY Margin DESC 
+LIMIT 1
+141,SC CANDIDATES PERFORMANCE,Who is the poorest SC candidate who won the 2022 elections?,,,SELECT Candidate_Name FROM Uttar_Pradesh_AE WHERE Position=1 AND Year=2022 AND Candidate_Type='SC' ORDER BY Margin ASC LIMIT 1
+142,SC CANDIDATES PERFORMANCE,How many SC candidates contested in the 2017 elections?,1169,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Year=2017 AND Candidate_Type='SC'
+143,SC CANDIDATES PERFORMANCE,Which party fielded the highest number of SC candidates in 2017 election?,IND,,SELECT Party 
+FROM Uttar_Pradesh_AE 
+WHERE Year = 2017 
+GROUP BY Party 
+HAVING COUNT(CASE WHEN Candidate_Type = 'SC' THEN 1 END) = 
+(SELECT MAX(SC_Count) 
+FROM (SELECT COUNT(CASE WHEN Candidate_Type = 'SC' THEN 1 END) AS SC_Count 
+FROM Uttar_Pradesh_AE 
+WHERE Year = 2017 
+GROUP BY Party) AS T)
+144,SC CANDIDATES PERFORMANCE,Which party has the highest SC winners in 2017 elections? ,BJP,,SELECT Party 
+FROM Uttar_Pradesh_AE 
+WHERE Year = 2017 AND Position = 1 
+GROUP BY Party 
+HAVING COUNT(Gender = 'SC') = (SELECT MAX(SC_count) 
+                               FROM (SELECT COUNT(*) AS SC_count 
+                                     FROM Uttar_Pradesh_AE 
+                                     WHERE Year = 2017 AND Position = 1 AND Gender = 'SC' 
+                                     GROUP BY Party) AS temp_table)
+145,SC CANDIDATES PERFORMANCE,How many SC candidates won in the 2017 elections? ,86,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Year=2017 AND Position=1 AND Candidate_Type='SC'
+146,SC CANDIDATES PERFORMANCE,Which constituency witnessed the highest number of SC candidates contesting in 2017 elections?,BARA,,SELECT Constituency_Name FROM Uttar_Pradesh_AE WHERE Year=2017 GROUP BY Constituency_Name HAVING COUNT(CASE WHEN Candidate_Type='SC' THEN 1 END) = (SELECT MAX(SC_Count) FROM (SELECT COUNT(CASE WHEN Candidate_Type='SC' THEN 1 END) AS SC_Count FROM Uttar_Pradesh_AE WHERE Year=2017 GROUP BY Constituency_Name) AS T)
+147,SC CANDIDATES PERFORMANCE,What is the average margin of victory for winners who are SC in 2017 elections? ,,,SELECT AVG(Margin) FROM Uttar_Pradesh_AE WHERE Position=1 AND Candidate_Type='SC' AND Year=2017
+148,SC CANDIDATES PERFORMANCE,What is the highest margin of victory among SC winners in 2017 elections?,104643,,SELECT MAX(Margin) FROM Uttar_Pradesh_AE WHERE Position=1 AND Year=2017 AND Sub_Region='SC'
+149,SC CANDIDATES PERFORMANCE,How many male SC candidates contested in 2017 elections?,1001,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Gender='Male' AND Candidate_Type='SC' AND Year=2017
+150,SC CANDIDATES PERFORMANCE,How many female SC candidates contested  in 2017 elections?,167,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Gender='F' AND Candidate_Type='SC' AND Year=2017
+151,SC CANDIDATES PERFORMANCE,Who is the richest SC candidate who won the 2017 elections?,,,SELECT Candidate_Name 
+FROM Uttar_Pradesh_AE 
+WHERE Position=1 AND Year=2017 AND Candidate_Type='SC' 
+ORDER BY Margin DESC 
+LIMIT 1
+152,SC CANDIDATES PERFORMANCE,Who is the poorest SC candidate who won the 2017 elections?,,,SELECT Candidate_Name 
+FROM Uttar_Pradesh_AE 
+WHERE Position=1 AND Year=2017 
+ORDER BY Margin ASC 
+LIMIT 1
+153,NUMBER OF ELECTORS IN DIFFERENT ELECTIONS,How many electors were there in the 2022 assembly elections?,92162896,,SELECT Electors FROM Uttar_Pradesh_AE WHERE Year=2022
+154,NUMBER OF ELECTORS IN DIFFERENT ELECTIONS,How many electors were there in the 2017 assembly elections?,86727767,,SELECT SUM(Electors) FROM Uttar_Pradesh_AE WHERE Year=2017
+155,NUMBER OF ELECTORS IN DIFFERENT ELECTIONS,How many electors were there in the 2007 assembly elections?,52595476,,SELECT Electors FROM Uttar_Pradesh_AE WHERE Year=2007
+156,NUMBER OF ELECTORS IN DIFFERENT ELECTIONS,Which constituency had the highest number of voters in 2022?,SAHIBABAD,,SELECT Constituency_Name FROM Uttar_Pradesh_AE WHERE Year=2022 ORDER BY Electors DESC LIMIT 1;
+157,NUMBER OF ELECTORS IN DIFFERENT ELECTIONS,Which constituency had the highest number of voters in 2017?,SAHIBABAD,,SELECT Constituency_Name FROM Uttar_Pradesh_AE WHERE Year=2017 ORDER BY Electors DESC LIMIT 1
+158,NUMBER OF ELECTORS IN DIFFERENT ELECTIONS,Which constituency had the highest number of voters in 2007?,GOVINDNAGAR,,SELECT Constituency_Name FROM Uttar_Pradesh_AE WHERE Year=2007 ORDER BY Electors DESC LIMIT 1;
+159,NUMBER OF ELECTORS IN DIFFERENT ELECTIONS,Which constituency had the lowest number of voters in 2022?,ARYANAGAR,,SELECT Constituency_Name FROM Uttar_Pradesh_AE WHERE Year=2022 ORDER BY Electors ASC LIMIT 1;
+160,NUMBER OF ELECTORS IN DIFFERENT ELECTIONS,Which constituency had the lowest number of voters in 2017?,ARYANAGAR,,SELECT Constituency_Name FROM Uttar_Pradesh_AE WHERE Year=2017 ORDER BY Electors ASC LIMIT 1;
+161,NUMBER OF ELECTORS IN DIFFERENT ELECTIONS,Which constituency had the lowest number of voters in 2007?,LUCKNOW EAST,,SELECT Constituency_Name FROM Uttar_Pradesh_AE WHERE Year=2007 ORDER BY Electors ASC LIMIT 1;
+,,,,,I'm sorry, but I cannot generate SQL queries based on the given table and instructions.
+,,,,,I'm sorry, but I cannot generate SQL queries based on the given table and instructions.
+,,,,,I'm sorry, but I cannot generate SQL queries based on the given table and instructions.
+,,,,,I'm sorry, but I cannot generate SQL queries based on the given table and instructions.
+,,,,,I'm sorry, but I cannot generate SQL queries based on the given table and instructions.
+,,,,,I'm sorry, but I cannot generate SQL queries based on the given table and instructions.
+,,,,,I'm sorry, but I cannot generate SQL queries based on the given table and instructions.
+,,,,,I'm sorry, but I cannot generate SQL queries based on the given table and instructions.
+,,,,,I'm sorry, but I cannot generate SQL queries based on the given table and instructions.
+,,,,,I'm sorry, but I cannot generate SQL queries based on the given table and instructions.
+,,,,,I'm sorry, but I cannot generate SQL queries based on the given table and instructions.
+,,,,,I'm sorry, but I cannot generate SQL queries based on the given table and instructions.
+,,,,,I'm sorry, but I cannot generate SQL queries based on the given table and instructions.
+,,,,,I'm sorry, but I cannot generate SQL queries based on the given table and instructions.
+,,,,,I'm sorry, but I cannot generate SQL queries based on the given table and instructions.
+,,,,,I'm sorry, but I cannot generate SQL queries based on the given table and instructions.
+,,,,,I'm sorry, but I cannot generate SQL queries based on the given table and instructions.
+,,,,,I'm sorry, but I cannot generate SQL queries based on the given table and instructions.
+,,,,,I'm sorry, but I cannot generate SQL queries based on the given table and instructions.
+,,,,,I'm sorry, but I cannot generate SQL queries based on the given table and instructions.
+,,,,,I'm sorry, but I cannot generate SQL queries based on the given table and instructions.
+,,,,,I'm sorry, but I cannot generate SQL queries based on the given table and instructions.
+,,PARTY'S PERFORMANCE,,,To find the performance of a specific party, you can use the following SQL query:
+
+SELECT Party, COUNT(*) as Total_Wins
+FROM Uttar_Pradesh_AE
+WHERE Position = 1
+GROUP BY Party
+ORDER BY Total_Wins DESC;
+,,Which party won in the election of 2022?,,,SELECT Party 
+FROM Uttar_Pradesh_AE 
+WHERE Year = 2022 AND Position = 1
+,,How much votes get by the winning Party ?,,,SELECT SUM(Votes) FROM Uttar_Pradesh_AE WHERE Position=1
+,,Top three MLAs who get the highest vote in BJP in 2022 election ?,,,SELECT Candidate_Name, Party, Votes 
+FROM Uttar_Pradesh_AE 
+WHERE Party = 'BJP' AND Year = 2022 
+ORDER BY Votes DESC 
+LIMIT 3
+,,How many women Candidate won from BJP in 2022 election ?,,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Gender='Female' AND Party='BJP' AND Year=2022 AND Position=1
+,,How much vote get by BSP  in 2022 election ?,,,SELECT SUM(Votes) FROM Uttar_Pradesh_AE WHERE Party='BSP' AND Year=2022
+,,Top three MLAs who get the highest vote in BSP in 2022 election ?,,,SELECT Candidate_Name, Party, Votes 
+FROM Uttar_Pradesh_AE 
+WHERE Party = 'BSP' AND Year = 2022 
+ORDER BY Votes DESC 
+LIMIT 3
+,,How many women Candidate won in BSP in 2022 election ?,,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Gender='F' AND Party='BSP' AND Year=2022 AND Position=1
+,,How much vote get by SP  in 2022 election ?,,,SELECT SUM(Votes) FROM Uttar_Pradesh_AE WHERE Party='SP' AND Year=2022
+,,who are the top three MLAs who get the highest vote in SP in 2022 election ?,,,SELECT Candidate_Name 
+FROM Uttar_Pradesh_AE 
+WHERE Party = 'SP' AND Year = 2022 
+ORDER BY Votes DESC 
+LIMIT 3
+,,How many women Candidate won in SP in 2022 election ?,,,SELECT COUNT(Candidate_Name) FROM Uttar_Pradesh_AE WHERE Gender='F' AND Party='SP' AND Year=2022 AND Position=1
+,,How many candidate won in SP in election 2022 ?,,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='SP' AND Year=2022 AND Position=1
+,,How many vote get by Congress  in 2022 election ?,,,SELECT SUM(Votes) FROM Uttar_Pradesh_AE WHERE Party='INC' AND Year=2022
+,,Who are the top three MLAs who get the highest vote in Congress in 2022 election ?,,,SELECT Candidate_Name 
+FROM Uttar_Pradesh_AE 
+WHERE Party = 'INC' AND Year = 2022 
+ORDER BY Votes DESC 
+LIMIT 3
+,,How many women Candidate won in Congress in 2022 election ?,,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Position=1 AND Gender='F' AND Party='INC' AND Year=2022
+,,How many candidate won in Congress  in election 2022 ?,,,SELECT COUNT(*) FROM Uttar_Pradesh_AE WHERE Party='INC' AND Position=1 AND Year=2022
