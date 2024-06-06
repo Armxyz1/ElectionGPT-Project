@@ -1,0 +1,53 @@
+q_id,topic,query,ground_truth
+114,VOTER TURNOUT. URBAN/ RURAL,How many number of Urban constituencies in India?,0
+115,VOTER TURNOUT. URBAN/ RURAL,How many number of Rural constituencies in India?,0
+116,VOTER TURNOUT. URBAN/ RURAL,What is the Number of Rural electorate in 2019?,Total Rural Electorate in 2019 is not available in the database.
+117,VOTER TURNOUT. URBAN/ RURAL,What is the Number of Urban electorate in 2019?,Total Urban Electorate in 2019 is None.
+118,VOTER TURNOUT. URBAN/ RURAL,What is the Number of Rural electorate in 2014?,Final answer here: The number of rural electorates in 2014 is not available in the database.
+119,VOTER TURNOUT. URBAN/ RURAL,What is the Number of Urban electorate in 2014?,Final answer here: The number of urban electorate in 2014 is not available in the database.
+120,VOTER TURNOUT. URBAN/ RURAL,What is the Voter turnout from among Rural seats in 2019?,The voter turnout from among Rural seats in 2019 is not available in the database.
+121,VOTER TURNOUT. URBAN/ RURAL,What is the Voter turnout from among Urban seats in 2019?,Voter turnout from among Urban seats in 2019 is not available in the database.
+122,VOTER TURNOUT. URBAN/ RURAL,What is the Voter turnout from among Rural seats in 2014?,The voter turnout from among Rural seats in 2014 is not available in the database.
+123,VOTER TURNOUT. URBAN/ RURAL,What is the Voter turnout from among Urban seats in 2014?,The voter turnout from among Urban seats in 2014 is not available in the database.
+124,VOTER TURNOUT. URBAN/ RURAL,What is the Highest voter turnout amongst Urban seats?,There is no data available for the highest voter turnout amongst urban seats.
+125,VOTER TURNOUT. URBAN/ RURAL,What is the Highest voter turnout amongst Rural seats?,Highest voter turnout amongst Rural seats is not available in the database.
+126,"LOK SABHA ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",TALLY IN DIFFERENT ELECTIONS: In the last five elections, the tally of elections held in each year is as follows: - 2021: 1 election- 2020: 1 election- 2019: 2 elections- 2018: 1 election- 2017: 1 election
+127,"LOK SABHA ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",2019, 2014, 2009, 2008, 2004
+128,"LOK SABHA ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",TALLY IN DIFFERENT ELECTIONS: In the last five elections, the number of elections held in each year are as follows: - 2021: 1 election- 2020: 1 election- 2019: 2 elections- 2018: 1 election- 2017: 1 election
+129,"LOK SABHA ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",TALLY IN DIFFERENT ELECTIONS: In the last five elections, the tally of elections held in each year is as follows: - 2021: 1 election- 2020: 1 election- 2019: 2 elections- 2018: 1 election- 2017: 1 election
+130,"LOK SABHA ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",TALLY IN DIFFERENT ELECTIONS: In the last five elections, the tally of elections held in each year is as follows: - 2021: 1 election- 2020: 1 election- 2019: 2 elections- 2018: 1 election- 2017: 1 election
+131,"LOK SABHA ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",2021: 1 election2020: 1 election2019: 2 elections2018: 1 election2017: 1 election
+132,"LOK SABHA ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",2019, 2014, 2009, 2008, 2004
+133,"LOK SABHA ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",TALLY IN DIFFERENT ELECTIONS: In the last five elections, the tally of elections held in each year is as follows: - 2021: 1 election- 2020: 1 election- 2019: 2 elections- 2018: 1 election- 2017: 1 election
+134,"LOK SABHA ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",TALLY IN DIFFERENT ELECTIONS: In the last five elections, the tally of elections held in each year is as follows: - 2021: 1 election- 2020: 1 election- 2019: 2 elections- 2018: 1 election- 2017: 1 election
+135,"LOK SABHA ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",2019, 2014, 2009, 2008, 2004
+136,"LOK SABHA ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",2021: 1 election2020: 1 election2019: 2 elections2018: 1 election2017: 1 election
+137,"LOK SABHA ELECTION RESULTS, TALLY IN DIFFERENT ELECTIONS",2021: 1 election2020: 1 election2019: 2 elections2018: 1 election2017: 1 election
+138,NUMBER OF VOTERS IN DIFFERENT ELECTIONS,What is the Number of voters in 2019 election?,Total Voters in the 2019 election is 14,687,915,903.
+139,NUMBER OF VOTERS IN DIFFERENT ELECTIONS,What is the Number of voters in 2014 election?,269360
+140,NUMBER OF VOTERS IN DIFFERENT ELECTIONS,What constituency had the highest number of voters in 2019?,MALKAJGIRI constituency had the highest number of voters in 2019.
+141,NUMBER OF VOTERS IN DIFFERENT ELECTIONS,What constituency had the highest number of voters in 2014?,MALKAJGIRI had the highest number of voters in 2014.
+142,NUMBER OF VOTERS IN DIFFERENT ELECTIONS,What constituency had the highest number of voters in 2009?,MALKAJGIRI
+143,SC CANDIDATES PERFORMANCE,What is the number of SC candidates in the 2019 elections?,1142
+144,SC CANDIDATES PERFORMANCE,Which party have the highest SC candidate in 2019 election?,The party with the highest number of SC candidates in the 2019 election is the Independent party (IND).
+145,SC CANDIDATES PERFORMANCE,Which party have the highest SC winners in 2019 elections?,There are no results for the given query.
+146,SC CANDIDATES PERFORMANCE,What is the total number of SC winners in the 2019 elections?,0
+147,SC CANDIDATES PERFORMANCE,Which Constituency have the highest number of SC candidates in 2019 elections?,The constituency with the highest number of SC candidates in the 2019 elections is TENKASI with 25 SC candidates.
+148,SC CANDIDATES PERFORMANCE,What is the Highest victory margin among SC candidates in 2019 elections?,Highest victory margin among SC candidates in 2019 elections is 553,897.
+149,SC CANDIDATES PERFORMANCE,What is the number of male SC candidates in 2019 elections?,1012
+150,SC CANDIDATES PERFORMANCE,What is the number of female SC candidates in 2019 elections?,119
+151,SC CANDIDATES PERFORMANCE,Who is the Richest candidates among SC in 2019 elections?,NIHAL CHAND from BJP is the richest candidate among SC in the 2019 elections with 897,177 votes.
+152,SC CANDIDATES PERFORMANCE,Who is the Poorest candidates among SC in 2019 elections?,The poorest candidate among SC in the 2019 elections is Jain Wilson from the party IND with 199 votes.
+153,SC CANDIDATES PERFORMANCE,What is the number of SC candidates in the 2014 elections?,2099
+154,SC CANDIDATES PERFORMANCE,What is the total number of SC winners in the 2014 elections?,0
+155,SC CANDIDATES PERFORMANCE,Which Party have  the highest SC candidates in 2014 elections?,The party with the highest number of SC candidates in the 2014 elections is IND with 902 candidates.
+156,SC CANDIDATES PERFORMANCE,Which Party have the highest SC winners in 2014 elections,There are no results for the given query.
+157,SC CANDIDATES PERFORMANCE,Which constituency have the highest number of SC candidates in 2014 elections?,JALANDHAR constituency had the highest number of SC candidates in the 2014 elections with 24 candidates.
+158,SC CANDIDATES PERFORMANCE,What is the highest victory margin among SC candidates in 2014 elections?,The highest victory margin among SC candidates in the 2014 elections is 421,973 votes.
+159,SC CANDIDATES PERFORMANCE,What is the number of male SC candidates in 2014 elections?,1937
+160,SC CANDIDATES PERFORMANCE,What is the Number of female SC candidates in 2014 elections?,161
+161,SC CANDIDATES PERFORMANCE,What is the Number of male SC winners in 2014 elections?,Number of male SC winners in 2014 elections is 0.
+162,SC CANDIDATES PERFORMANCE,What is the Number of female SC winners in 2014 elections?,Number of female SC winners in 2014 elections is 12.
+163,SC CANDIDATES PERFORMANCE,Who is the Richest candidates among SC in 2014 elections?,The richest candidate among SC in the 2014 elections is Aparupa Poddar (Afrin Ali) from the AITC party with 748,764 votes.
+164,SC CANDIDATES PERFORMANCE,Who is the poorest candidates among SC in 2014 elections?,The poorest candidate among SC in the 2014 elections is S. RAJESHWARI from the party IND with 157 votes.
+165,SC CANDIDATES PERFORMANCE,Who is the most successful SC candidate in history of UP elections?,Arun Kumar Sagar from the BJP party is the most successful SC candidate in the history of UP elections with 688,990 votes.

@@ -1,0 +1,6 @@
+[
+    {
+        "prompt": "How many MLA won with more than one lakh votes?",
+        "completion": "SELECT COUNT(*) FROM eci_kr_2023 WHERE votes > 100000 AND position=1"
+    }
+]

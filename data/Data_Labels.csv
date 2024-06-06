@@ -1,0 +1,51 @@
+No,Variable Name,Variable Type,Variable Label
+1,State_Name,string,Name of the State
+2,Assembly_No,numeric,Assembly Number as per ECI
+3,Constituency_No,numeric,Assembly Constituency Number as per ECI
+4,Year,numeric,Year in which the election was held
+5,month,numeric,Month in which election results were announced
+6,Poll_No,numeric,"This is an indicator of whether the election was a bye-election or regularly scheduled election.
+The variable is 0 in case it was a regularly scheduled election, 1 for the first bye-poll for that assembly and constituency, 2 for the second bye-poll, and so on."
+7,DelimID,numeric,Delimitation Number
+8,Position,numeric,Rank of the contestant based on Vote Share
+9,Candidate_Name,string,Name of the Candidate as per ECI
+10,Gender,string,Gender of the Candidate as per ECI
+11,Party,string,Party of the Candidate as per ECI
+12,Votes,numeric,Number of Votes for the Candidate as per ECI
+13,Candidate_Type,string,Category of the Candidate:  General (GEN) or reserved for Scheduled Castes (SC) or Scheduled Tribes (ST)
+14,Valid_Votes,numeric,Sum of all votes to all candidates in a particular election for a particular constituency
+15,Electors,numeric,Total number of registered electors in the constituency as per ECI
+16,Constituency_Name,string,Name of the Constituency
+17,Constituency_Type,string,Type of the Constituency:  General (GEN) or reserved for Scheduled Castes (SC) or Scheduled Tribes (ST)
+18,Sub_Region,string,Subregion of the constituency
+19,No_Cand,numeric,Number of candidates contesting the constituency
+20,Turnout_Percentage,numeric,Percentage turnout in the constituency
+21,Vote_Share_Percentag e,numeric,Percentage Vote Share received by the candidate in a given constituency
+22,Deposit_Lost,logical,Binary variable that indicates if the candidate lost their deposit (yes) or not (no)
+23,Margin,numeric,Difference in votes between a candidate and the next ordered candidate (ordered by position)
+24,Margin_Percentage,numeric,Percentage margin of a candidate in compared to the next position candidate
+25,ENOP,numeric,Effective Number of Parties (derived from vote shares of each candidate in a constituency)
+26,PID,numeric,Unique identifier for a candidate
+27,Party_Type,string,Classification of political parties done by TCPD
+28,Party_ID,numeric,Unique identifier for a political party
+29,Last_Poll,logical,Binary variable that indicates if this was the last election held in this constituency (TRUE) or not (FALSE)
+30,Contested,numeric,"The number of times a candidate has contested so far, including this election"
+31,Last_Party,numeric,The name of the party the candidate contested from in their previous contest
+32,Last_Party_ID,numeric,The unique party ID of the party the candidate contested from in their previous contest
+33,Last_Constituency_Name,string,Name of constituency this candidate contested from in their previous contest
+34,Same_Constituency,logical,Binary variable that indicates if the candidate contested from the same constituency in their previous contest.
+35,Same_Party,logical,Binary variable that indicates if the candidate contested from the same party in the previous contest.
+36,No_Terms,numeric,"Number of contests won by the candidate, including this election"
+37,Turncoat,logical,Binary variable that indicates if the candidate has switched their party from the immediately preceding election (TRUE) or not (FALSE)
+38,Incumbent,logical,Binary variable that indicates if the candidate is a sitting member of the house at the time of this election (TRUE) or not (FALSE).
+39,Recontest,logical,Binary variable that indicates if the candidate contested in the immediately preceding election (TRUE) or not (FALSE).
+40,Age,numeric,Age of the candidate as per ECI
+41,District_Name,string,Name of district of constituency as per 2001 Census
+42,Education,string,Indicates the education level of the candidate as filled by them in their nomination affidavit.
+43,Profession_Main,string,This is the primary profession category based on the profession filled by the candidate in the nomination affidavit.
+44,Profession_Main_Description,string,This is the primary profession type based on the profession filled by the candidate in the nomination affidavit.
+45,Profession_Second,string,This is the secondary profession category based on the profession filled by the candidate in the nomination affidavit.
+46,Profession_Second_Description,string,This is the secondary profession type based on the profession filled by the candidate in the nomination affidavit.
+47,Election_Type,string,Type of Election: General Election (GE) or Assembly Election (AE)
+48,PC_Name,string,Name of the parliamentary constituency within which the AC segment lies. Note: This applies when “Show AC segment wise results” has been selected.
+49,PC_No,numeric,Number of the parliamentary constituency within which the AC segment lies.  Note: This applies when “Show AC segment wise results” has been selected.
