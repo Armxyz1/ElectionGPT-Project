@@ -1,0 +1,44 @@
+How many MLA won with more than one lakh votes? 
+How many MLA won with more than Fifty thousand votes? 
+How many MLA won with more than Twenty Five thousand votes? 
+How many MLA won with more than Twenty Five thousand votes? 
+Who registered the highest victory margin in the election? 
+How many MLA of BJP have victory margin over ten thousand votes?? 
+How many MLA of Congress have victory margin over ten thousand votes?
+Number of candidates fielded by the BJP?
+Number of candidates fielded by the JD(S)?
+Number of candidates fielded by the Congress?
+How many MLA won with more than one lakh votes in 2023 election? 
+How many MLA won with more than Fifty thousand votes in 2023 election? 
+How many MLA won with more than Twenty Five thousand votes in 2023 election? 
+Who registered the highest victory margin in the 2023 election?
+How many MLA of BJP have victory margin over ten thousand votes in 2023 election? 
+How many MLA of Congress have victory margin over ten thousand votes in 2023 election? 
+How many MLA of JD(s) have victory margin over ten thousand votes in 2023 election? 
+How many MLA lost with less than hundred votes in  2023 election? 
+How many MLA lost with less than five hundred votes in  2023 election? 
+How many MLA lost with less than one thousand votes in 2023 election? 
+How many MLA lost with less than five thousand votes in 2023 election? 
+Who registered the lowest victory margin in the 2023 election? 
+How many MLA of BJP have victory margin less than five thousand votes in 2023 election? 
+How many MLA of Congress have victory margin less than five thousand votes in 2023 election?
+How many MLA of JD(s) have victory margin less than five thousand votes in 2023 election? 
+Which constituency recorded the largest number of candidates in 2023?
+How many candidates were recorded in 2023 in the constituency?
+Number of candidates who lost their deposits in the constituency with max candidates in the 2023 election?
+Which constituency recorded the minimum number of candidates in 2023?
+How many candidates were recorded in 2023 in the constituency?
+Number of candidates who lost their deposits in the constituency with min candidates in the 2023 election?
+Which constituency had the maximum number of voters in 2023 assembly elections?
+How many votes were polled in the constituency with the maximum number of voters in 2023 assembly elections?
+What was the voter turnout in the constituency with the maximum number of voters in 2023 assembly elections?
+In the 2023 assembly elections, out of the top 100 constituencies with the highest voter turnout, how many had incumbent MLAs of the ruling party? 
+In the 2023 assembly elections, which party won the highest number of seats in the top 100 constituencies with the maximum number of voters and how many?
+Which constituency had the minimum number of voters in 2023 assembly elections?
+How many votes were polled in the constituency with the minimum number of voters in 2023 assembly elections?
+What was the voter turnout in the constituency with the minimum number of voters in 2023 assembly elections?
+In the 2023 assembly elections, out of the 100 constituencies with the lowest voter turnout, how many had incumbent MLAs of the ruling party?
+In the 2023 assembly elections, which party won the highest number of seats in the 100 constituencies with the least number of voters and how many?
+Number of candidates fielded by the BJP in 2023?
+Number of candidates fielded by the JD(s) in 2023?
+Number of candidates fielded by the Congress in 2023?
